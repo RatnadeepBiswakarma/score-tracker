@@ -58,7 +58,7 @@ input[type=button] {
     box-shadow: 4px 4px 10px grey;
     margin: 8px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
 }
 .team__1__btn, .team__2__btn {
     margin: auto;

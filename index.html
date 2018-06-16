@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Score Tracker App</title>
+    <!-- link files -->
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="teams">
+            <!-- team one code starts here  -->
+            <div class="team__one">
+                <div class="team__one__name">
+                    <h2 class="team__name">Team 1</h2>
+                </div>
+                <div class="display">
+                    <h2 class="team__1__score total__score">0</h2>
+                </div>
+                <div class="team__1__btn">
+                    <input onclick="addRunToTeam1(0)" class="team__1__run" id="1_add0" type="button" value="Run 0">
+                    <input onclick="addRunToTeam1(1)" class="team__1__run" id="1_add1" type="button" value="Run +1">
+                    <input onclick="addRunToTeam1(2)" class="team__1__run" id="1_add2" type="button" value="Run +2"><br>
+                    <input onclick="addRunToTeam1(3)" class="team__1__run" id="1_add3" type="button" value="Run +3">
+                    <input onclick="addRunToTeam1(4)" class="team__1__run" id="1_add4" type="button" value="Four +4">
+                    <input onclick="addRunToTeam1(6)" class="team__1__run" id="1_add6" type="button" value="Six +6">
+                </div>
+                <div class="history">
+                    <p>Score Board :</p>
+                    <p id="team__1__runList"></p>
+                </div>
+
+            </div>
+            
+            <!-- team 2 code starts here  -->
+            <div class="team__two">
+                <div class="team__two__name">
+                    <h2 class="team__name">Team 2</h2>
+                </div>
+                <div class="display">
+                    <h2 class="team__2__score total__score">0</h2>
+                </div>
+                <div class="team__2__btn">
+                    <input onclick="addRunToTeam2(0)" class="team__2__run" id="2_add0" type="button" value="Run 0">
+                    <input onclick="addRunToTeam2(1)" class="team__2__run" id="2_add1" type="button" value="Run +1">
+                    <input onclick="addRunToTeam2(2)" class="team__2__run" id="2_add2" type="button" value="Run +2"><br>
+                    <input onclick="addRunToTeam2(3)" class="team__2__run" id="2_add3" type="button" value="Run +3">
+                    <input onclick="addRunToTeam2(4)" class="team__2__run" id="2_add4" type="button" value="Four +4">
+                    <input onclick="addRunToTeam2(6)" class="team__2__run" id="2_add6" type="button" value="Six +6">
+                </div>
+                <div class="history">
+                    <p>Score Board :</p>
+                    <p id="team__2__runList"></p>
+                </div>
+            </div>
+            <div class="reset">
+                <input id="reset__button" type="button" onclick="resetAll()" value="Reset All">
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

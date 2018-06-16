@@ -1,0 +1,77 @@
+.container {
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.team__one {
+    float: left;
+    width: 380px;
+    height: 400px;
+}
+
+.team__two {
+    float: right;
+    width: 380px;
+    height: 400px;
+}
+
+.team__one__name, .team__two__name {
+    position: relative;
+    width: 100%;
+    height: 30px;
+}
+.team__one, .team__two {
+    border: 1px solid rgb(189, 189, 189);
+    padding: 5px;
+    box-shadow: 5px 5px 15px rgb(182, 182, 182);
+}
+.team__name {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(45, 138, 126);
+}
+.total__score {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+    text-align: center;
+}
+.history {
+    width: 100%;
+    padding: 10px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type=button] {
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    color: teal;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 2px;
+    box-shadow: 4px 4px 10px grey;
+    margin: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.team__1__btn, .team__2__btn {
+    margin: auto;
+    width: 95%;
+}
+#reset__button {
+    width: 120px;
+    margin-left: 42%;
+}
+input[type=button]:active {
+    box-shadow: 2px 2px 2px grey;
+    /*transition: ease;
+    transition-delay: initial;
+    transition-duration: 0s;
+    */
+}

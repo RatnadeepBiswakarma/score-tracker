@@ -35,12 +35,15 @@ function resetAll() {   // reset all the data that are stored in the variable an
 
 function scoreHistory() { // this function's task is to print the runlist stored in the respective array.
 let list1, list2;
-    for (const run1 of team1History) {
-        document.querySelector('#team__1__runList').innerHTML = run1;
+    
+
+
+for (const run1 of team1History) {
+        document.querySelector('#team__1__runList').innerHTML = run1 + "<br>"; // this is not working now...
         console.log(run1); // this console.log line is added to check if the function is working or not...
     }
     for (const run2 of team2History) {
-        document.querySelector('#team__2__runList').innerHTML = run2;
+        document.querySelector('#team__2__runList').innerHTML = run2 + "<br>"; // this is not working now...
         console.log(run2); // this console.log line is added to check if the function is working or not...
     }
 }
